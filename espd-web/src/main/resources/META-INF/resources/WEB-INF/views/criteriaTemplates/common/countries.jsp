@@ -32,6 +32,6 @@
 <form:select path="${field}" cssClass="${cssClass} optsorted">
     <form:option value="${null}" label="---"/>
     <c:forEach items="<%=Country.VALUES%>" var="cty">
-        <form:option data-i18n="country_${cty.iso2Code}" value="${cty}">${i18n["country_".concat(cty.iso2Code)]}</form:option>
+        <form:option data-i18n="country_${cty.iso2Code}" value="${cty}">${i18n["country_"+cty.iso2Code]}</form:option>
     </c:forEach>
 </form:select>

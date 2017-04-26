@@ -18,7 +18,7 @@
 			<span style="font-weight: bold;">
 				<s:message
 					code="information_for_country_in_ecertis"
-					arguments="${i18n['country_'.concat(agent == 'eo' ? espd.economicOperator.country : espd.authority.country)]}"
+					arguments="${i18n['country_'+(agent == 'eo' ? espd.economicOperator.country : espd.authority.country)]}"
 					htmlEscape="false"/>
 			</span>
 			<p></p>
@@ -28,7 +28,7 @@
 			<span style="font-weight: bold;">
 				<s:message
 					code="information_for_country_in_ecertis"
-					arguments="${i18n['country_'.concat(agent == 'eo' ? espd.economicOperator.country : espd.authority.country)]}"
+					arguments="${i18n['country_'+(agent == 'eo' ? espd.economicOperator.country : espd.authority.country)]}"
 					htmlEscape="false"/>
 				<%--${span18n["ecertis_language"]}: <span id="language"><!-- dynamic Language --></span> --%>
 			</span>

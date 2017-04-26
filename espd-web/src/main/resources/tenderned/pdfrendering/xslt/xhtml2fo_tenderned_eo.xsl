@@ -223,7 +223,7 @@
 	<xsl:template match="div[@class='col-md-12 collapse']"/>
 	<xsl:template match="div[@class='form-group collapse']"/>
 	<xsl:template match="div[@class='errorContainer alert alert-danger']"/>
-	<xsl:template match="div[@class='alert alert-espd-info']"/>
+	<!-- <xsl:template match="div[@class='alert alert-espd-info']"/> -->
 	<xsl:template match="div[@id='meetsObjective-ecertis']"/>
 	<xsl:template match="div[@class='alert alert-espd-info  collapse']"/>
 

@@ -41,9 +41,9 @@
             <plugin>
                 <groupId>org.asciidoctor</groupId>
                 <artifactId>asciidoctor-maven-plugin</artifactId>
-                <version>1.5.2.1</version>
+                <version>1.5.5</version>
                 <executions>
-                    <execution>
+                    <!-- <execution>
                         <id>asciidoc-techdocs-to-html</id>
                         <phase>generate-resources</phase>
                         <goals>
@@ -51,9 +51,9 @@
                         </goals>
                         <configuration>
                             <backend>html5</backend>
-                            <!--<requires>-->
-                            <!--<require>asciidoctor-diagram</require>-->
-                            <!--</requires>-->
+                            <requires>
+                            <require>asciidoctor-diagram</require>
+                            </requires>
                             <sourceHighlighter>coderay</sourceHighlighter>
                             <attributes>
                                 <imagesdir>./images</imagesdir>
@@ -61,13 +61,13 @@
                                 <icons>font</icons>
                                 <sectanchors>true</sectanchors>
                                 <sectlinks>true</sectlinks>
-                                <!-- set the idprefix to blank -->
+                                set the idprefix to blank
                                 <idprefix/>
                                 <idseparator>-</idseparator>
                                 <docinfo1>true</docinfo1>
                             </attributes>
                         </configuration>
-                    </execution>
+                    </execution> -->
                     <!--<execution>-->
                         <!--<id>asciidoc-usermanual-to-pdf</id>-->
                         <!--<phase>generate-resources</phase>-->

@@ -33,7 +33,7 @@
     <container-descriptor>
         <!-- We want to allow some resources to be accessed by authenticated users who do not possess any role. Very important parameter. -->
         <allow-all-roles>true</allow-all-roles>
-        <prefer-application-packages>
+        <!-- <prefer-application-packages>
             <package-name>org.slf4j.*</package-name>
             <package-name>com.google.common.*</package-name>
             <package-name>org.joda.*</package-name>
@@ -58,7 +58,7 @@
             <package-name>org.apache.taglibs.*</package-name>
             <package-name>org.codehaus.jackson.*</package-name>
             <package-name>org.apache.batik.*</package-name>
-        </prefer-application-packages>
+        </prefer-application-packages> -->
     </container-descriptor>
 
 </weblogic-web-app>

@@ -62,7 +62,7 @@
                 <span data-i18n="createcasel_header"><s:message code="createcasel_header"/></span>
             </h2>
         </div>
-        <div class="alert alert-espd-info-dotted"
+        <div class="alert alert-espd-info-dotted">
                     ${span18n['createcasel_alert']}
   
 					<label class="control-label">${span18n['question_to_use_alpha']}</label>
